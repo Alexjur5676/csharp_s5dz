@@ -6,6 +6,10 @@ Console.WriteLine("Введите колличество элементов ма
 int n = Convert.ToInt32(Console.ReadLine());
 double[] array = new double[n];
 Random rand = new Random();
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i] = Math.Round(rand.NextDouble()*(10+9)-9,5); 
+// }
 for (int i = 0; i < array.Length; i++)
 {
     array[i] = rand.NextDouble()*(100+99)-99;
